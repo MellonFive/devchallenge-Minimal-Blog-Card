@@ -1,0 +1,71 @@
+main {
+  font-family: 'Sora', sans-serif;
+  
+  max-width: 450px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  margin: auto;
+}
+
+main > .container {
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+
+  border-radius: 1rem;
+
+  padding: 2rem;
+}
+
+.container > .image {
+  width: 100%;
+
+  border-radius: inherit;
+}
+
+.container > .model {
+  display: inline-block;
+
+  background-color: var(--grey);
+
+  padding: .5rem 1.7rem;
+  margin-top: 1.5rem;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--purple);
+
+  border-radius: 1rem;
+}
+
+.container > .subtitle {
+  margin-top: 2rem;
+
+  color: var(--dark-grey);
+}
+
+.container > .description {
+  margin-top: 2rem;
+  
+  width: 36rem;
+
+  color: var(--dark-grey);
+}
+
+.container > .border {
+  border: 1px solid var(--grey);
+
+  margin-top: 2rem;
+
+  width: 100%;
+}
+
+.container > .author {
+  margin-top: 2rem;
+
+  font-size: 1.4rem;
+
+  color: var(--dark-grey);
+}
