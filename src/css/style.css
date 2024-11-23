@@ -14,7 +14,7 @@ main {
 main > .container {
   box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
 
-  border-radius: 1rem;
+  border-radius: 1.5rem;
 
   padding: 2rem;
 }
@@ -47,7 +47,7 @@ main > .container {
 }
 
 .container > .description {
-  margin-top: 2rem;
+  margin-top: 1rem;
   
   width: 36rem;
 
