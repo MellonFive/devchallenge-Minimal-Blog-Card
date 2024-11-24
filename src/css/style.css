@@ -38,6 +38,13 @@ main > .container {
   color: var(--purple);
 
   border-radius: 1rem;
+
+  transition: .3s ease-in-out;
+}
+
+.container > .model:hover {
+  color: var(--grey);
+  background-color: var(--purple);
 }
 
 .container > .subtitle {
