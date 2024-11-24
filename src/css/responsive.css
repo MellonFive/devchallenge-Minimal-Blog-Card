@@ -1,0 +1,10 @@
+@media (max-width: 375px) {
+  main > .container {
+    max-width: 355px;
+  }
+
+  .container > .description {
+    font-size: 1.5rem;
+    width: 30rem;
+  }
+}
