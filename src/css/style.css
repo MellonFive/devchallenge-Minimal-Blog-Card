@@ -58,7 +58,7 @@ main > .container {
   
   width: 36rem;
 
-  color: var(--dark-grey);
+  color: var(--light-grey);
 }
 
 .container > .border {
@@ -74,5 +74,5 @@ main > .container {
 
   font-size: 1.3rem;
 
-  color: var(--dark-grey);
+  color: var(--light-grey);
 }
